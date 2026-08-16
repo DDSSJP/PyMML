@@ -1,0 +1,359 @@
+;@MML_TYPE,standard,0,utf_8
+
+;---------------------------------------------------------------------------------------
+#include path.mml
+#include system.mml
+sFT232H_YMF825,0,0
+;sMOCK1_YMF825,0,0
+#include YMF825_inc.mml
+#Zen 192
+
+;---------------------------------------------------------------------------------------
+#Title    冬の制服であの丘へゆこう
+#Composer DDSS
+#Arranger DDSS
+#Message  PyMML StandardMML sample1
+
+;---------------------------------------------------------------------------------------
+#Tone {
+  YMF825 Bass
+;ALG BO LFO
+  0  1  0
+;WS FB  AR  TL  DR  SL  SR  RR  MUL DT  EAM DAM EVB DVB KSR KSL XOF
+  0  0  15  30   0   0   0   0   0   0   0   0   0   0   0   0   0 
+  0  0  12   0   5   0   2  10   1   0   0   0   0   0   0   0   0 
+  0  0  15  63   0   0   0  15   0   0   0   0   0   0   0   0   0 
+  0  0  15  63   0   0   0  15   0   0   0   0   0   0   0   0   0 
+}
+#Tone {
+  YMF825 Pipe
+;ALG BO LFO
+  4  1  0
+;WS FB  AR  TL  DR  SL  SR  RR  MUL DT  EAM DAM EVB DVB KSR KSL XOF
+  0  6  15  30   0   0   6   0   4   0   0   0   0   0   0   0   0 
+  0  0  15  40   0   0   0   0   4   0   0   0   0   0   0   0   0 
+  0  0  15  50   0   0   0   0   2   0   0   0   0   0   0   0   0 
+  0  0   6   0   0   0   0   9   1   0   0   0   0   0   0   0   0 
+}
+#Tone {
+  YMF825 StringHiLFO
+;ALG BO LFO
+  3  1   3
+;WS FB  AR  TL  DR  SL  SR  RR  MUL DT  EAM DAM EVB DVB KSR KSL XOF
+  0  0  15  25   0   0   0   0   1   0   0   0   0   0   0   0   0 
+  0  0  15  45   0   0   0   0   4   0   0   0   1   2   0   0   0 
+  0  0  15  40   0   0   0   0   3   0   0   0   0   0   0   0   0 
+  0  0   6   0   0   0   0  13   1   0   0   0   0   0   0   0   0 
+}
+#Tone {
+  YMF825 StringHi
+;ALG BO LFO
+  3  1   0
+;WS FB  AR  TL  DR  SL  SR  RR  MUL DT  EAM DAM EVB DVB KSR KSL XOF
+  0  0  15  25   0   0   0   0   1   0   0   0   0   0   0   0   0 
+  0  0  15  45   0   0   0   0   4   0   0   0   0   0   0   0   0 
+  0  0  15  40   0   0   0   0   3   0   0   0   0   0   0   0   0 
+  0  0   6   0   0   0   0  13   1   0   0   0   0   0   0   0   0 
+}
+
+#Tone {
+  YMF825 Piano
+;ALG BO LFO
+  3  1  1
+;WS FB  AR  TL  DR  SL  SR  RR  MUL DT  EAM DAM EVB DVB KSR KSL XOF
+  0  0  15  50   6   6   4   9   1   0   0   0   0   0   0   0   0 
+  0  0  15  42   0   0   3   0   5   0   0   0   0   0   0   0   0 
+  0  0  13  37   4   2   4   9   2   0   0   0   1   1   0   0   0 
+  0  0  13   0   3   2   3  13   1   0   0   0   0   0   0   0   0 
+}
+#Tone {
+  YMF825 EPiano
+;ALG BO LFO
+  3  1   3
+;WS FB  AR  TL  DR  SL  SR  RR  MUL DT  EAM DAM EVB DVB KSR KSL XOF
+  0  0   9  25   0   0   0   0   1   0   0   0   0   0   0   0   0 
+  0  0  15  30   0   0   0   0   1   0   0   0   0   0   0   0   0 
+  0  0   8  45   0   0   0   8   1   0   0   0   0   0   0   0   0 
+  0  0  13   0   6   2   3   8   1   0   0   0   0   0   0   0   0 
+}
+#Tone {
+  YMF825 Hosoi
+;ALG BO LFO
+  0  1   2
+;WS FB  AR  TL  DR  SL  SR  RR  MUL DT  EAM DAM EVB DVB KSR KSL XOF
+  0  0  15  33   0   0   0   0   4   0   0   0   0   0   0   0   0 
+  0  0   5   0   0   0   0  13   1   0   0   0   0   0   0   0   0 
+  0  0   0  63   0   0   0  15   0   0   0   0   0   0   0   0   0 
+  0  0   0  63   0   0   0  13   0   0   0   0   0   0   0   0   0 
+}
+#Tone {
+  YMF825 Ensemble
+;ALG BO LFO
+  5  1   1
+;WS FB  AR  TL  DR  SL  SR  RR  MUL DT  EAM DAM EVB DVB KSR KSL XOF
+  0  0  15  25   0   0   0   0   2   3   0   0   1   1   0   0   0 
+  0  0   6   5   0   0   0  13   1   0   0   0   0   0   0   0   0 
+  0  5  15  20   0   0   0   0   1   7   0   0   0   0   0   0   0 
+  0  0   6   0   0   0   0  13   1   2   0   0   0   0   0   0   0 
+}
+#Tone {
+  YMF825 Horn
+;ALG BO LFO
+  5  1  1
+;WS FB  AR  TL  DR  SL  SR  RR  MUL DT  EAM DAM EVB DVB KSR KSL XOF
+  0  0  15  28   0   0   0   0   2   4   0   0   0   0   0   0   0 
+  0  0  15  13   0   0   1  15   2   0   0   0   0   0   0   0   0 
+  0  0   6  18   3   1   1  15   1   7   0   0   0   0   0   0   0 
+  0  0  15   0   0   0   1  15   1   2   0   0   0   0   0   0   0 
+}
+#Tone {
+  YMF825 Glocken
+;ALG BO LFO
+  7  1  2
+;WS FB  AR  TL  DR  SL  SR  RR  MUL DT  EAM DAM EVB DVB KSR KSL XOF
+  0  5  15   0   7  15   0  15   0   0   0   0   0   0   0   0   0 
+  0  0  15  14   0   0   0   0   2   0   0   0   0   0   0   0   0 
+  0  0  15   5   7   2   0   4   1   0   0   0   0   2   0   0   0 
+  0  0  15  10   7   2   0   3   0   0   0   0   1   2   0   0   0 
+}
+#Tone {
+  YMF825 BD
+;ALG BO LFO
+  5  1  0
+;WS FB  AR  TL  DR  SL  SR  RR  MUL DT  EAM DAM EVB DVB KSR KSL XOF
+  0  5  15   0   0   0   0   0   1   0   0   0   0   0   0   0   0 
+  0  0  15   7   8   5   8  15   1   0   0   0   0   0   0   0   0 
+  0  0  15  25   0   0   7   0   0   0   0   0   0   0   0   0   0 
+  0  0  15   0   7   3   9  15   1   0   0   0   0   0   0   0   0 
+}
+#Tone {
+  YMF825 SD
+;ALG BO LFO
+  5  1  0
+;WS FB  AR  TL  DR  SL  SR  RR  MUL DT  EAM DAM EVB DVB KSR KSL XOF
+  0  6  15   0   0   0   0   0   2   0   0   0   0   0   0   0   0 
+  0  0  14   8   8   2   6  15   1   0   0   0   0   0   0   0   0 
+  0  0  15  15  11   3   0   0   2   0   0   0   0   0   0   0   0 
+  0  0  14   0  12   2   7  15   0   0   0   0   0   0   0   0   0 
+}
+#Tone {
+  YMF825 HH_close
+;ALG BO LFO
+  0  1  0
+;WS FB  AR  TL  DR  SL  SR  RR  MUL DT  EAM DAM EVB DVB KSR KSL XOF
+  0  5  15   3   0   0   0   0   7   0   0   0   0   0   0   0   0 
+  0  0  15   0  10   1   7  15   2   0   0   0   0   0   0   0   0 
+  0  0  15  63   0   0   0  15   0   0   0   0   0   0   0   0   0 
+  0  0  15  63   0   0   0  15   0   0   0   0   0   0   0   0   0 
+}
+#Tone {
+  YMF825 HH_open
+;ALG BO LFO
+  0  1  0
+;WS FB  AR  TL  DR  SL  SR  RR  MUL DT  EAM DAM EVB DVB KSR KSL XOF
+  0  5  15   3   0   0   0   0   7   0   0   0   0   0   0   0   0 
+  0  0  15   5   0   0   4  15   2   0   0   0   0   0   0   0   0 
+  0  0  15  63   0   0   0  15   0   0   0   0   0   0   0   0   0 
+  0  0  15  63   0   0   0  15   0   0   0   0   0   0   0   0   0 
+}
+#Tone {
+  YMF825 Cynbal1
+;ALG BO LFO
+  0  1  0
+;WS FB  AR  TL  DR  SL  SR  RR  MUL DT  EAM DAM EVB DVB KSR KSL XOF
+  0  5  15   3   0   0   0   0   4   0   0   0   0   0   0   0   0 
+  0  0  12   0   0   0   3  15   0   0   0   0   0   0   0   0   0 
+  0  0  15  63   0   0   0  15   0   0   0   0   0   0   0   0   0 
+  0  0  15  63   0   0   0  15   0   0   0   0   0   0   0   0   0 
+}
+#Tone {
+  YMF825 Cynbal2
+;ALG BO LFO
+  0  1  0
+;WS FB  AR  TL  DR  SL  SR  RR  MUL DT  EAM DAM EVB DVB KSR KSL XOF
+  0  5  15   2   0   0   0   0   6   0   0   0   0   0   0   0   0 
+  0  0  13   0   5   1   3  15   1   0   0   0   0   0   0   0   0 
+  0  0  15  63   0   0   0  15   0   0   0   0   0   0   0   0   0 
+  0  0  15  63   0   0   0  15   0   0   0   0   0   0   0   0   0 
+}
+#Tone {
+  YMF825 Windchime
+;ALG BO LFO
+  5  1  3
+;WS FB  AR  TL  DR  SL  SR  RR  MUL DT  EAM DAM EVB DVB KSR KSL XOF
+ 19  0  15  10   0   0   0   0   4   0   0   0   0   0   0   0   0 
+  0  0  15   0   0   0   2  15   2   0   0   0   0   0   0   0   0 
+  0  0  15  63   0   0   0  15   0   0   0   0   0   0   0   0   0 
+  0  0  15  63   0   0   0  15   0   0   0   0   0   0   0   0   0 
+}
+#Map {
+    MapHH ; ID
+    DRUM  ; mode
+    2 c 6 f+ { @HH_close }
+    2 d 6 f+ { @HH_open  }
+}
+#Ctrl {
+    WindChime_N ; ID
+    MODULATION  ; ControllerType
+    NOTE        ; MODIFY_VALUE
+    RELATIVE    ; MODIFY_TYPE
+    RANDOM      ; WAVE
+    0           ; DELAY
+    6           ; AMPLIFY
+    6           ; PERIOD
+}
+#Ctrl {
+    WindChime_V ; ID
+    MODULATION  ; ControllerType
+    VOLUME      ; MODIFY_VALUE
+    RELATIVE    ; MODIFY_TYPE
+    TRIANGLE    ; WAVE
+    0           ; DELAY
+    2           ; AMPLIFY
+    20          ; PERIOD
+}
+#Ctrl {
+    WindChime_S ; ID
+    SWEEP       ; ControllerType
+    NOTE        ; MODIFY_VALUE
+    RELATIVE    ; MODIFY_TYPE
+    0           ; VOLUME_INI
+    48          ; STEP
+    -1          ; VOLUME
+}
+#Macro {
+    WindChime       ; ID
+    _ENABLE_ FLAG 0 ; Enable Switch
+    {
+        *WindChime_N,_ENABLE_
+        *WindChime_V,_ENABLE_
+        *WindChime_S,_ENABLE_
+    }
+}
+#YMF825_ToneTable {
+    Bass      ;  0
+    Pipe      ;  1
+    StringHi  ;  2
+    Piano     ;  3
+    EPiano    ;  4
+    Hosoi     ;  5
+    Ensemble  ;  6
+    Horn      ;  7
+    Glocken   ;  8
+    BD        ;  9
+    SD        ; 10
+    HH_close  ; 11
+    HH_open   ; 12
+    Cynbal1   ; 13
+    Cynbal2   ; 14
+    Windchime ; 15
+}
+
+;---------------------------------------------------------------------------------------
+/_
+    A440 B192 t130
+
+/ABCDEFGHIJ
+    K{-b}
+
+;---------------------------------------------------------------------------------------
+/A
+    @Bass v24
+    q1 o2 l16 r2. (f&{f>f}&f&{f<f}32&f32) L
+    q0 o3 l8 frf2^16r16)c32r32c32r32(
+    q2 f2^.r16)f16(&&g.
+    q3 f2^re-4
+    q2 f2^r)c(e-16&e16
+    q0 frf2^16r16)c32r32c32r32(
+    q2 g2^.r16)g16(&&a.
+    q3 b2^rg4
+    q3 f2^r16((f16))fr
+    q3 l8 [4 frf.c16ffrc bbrfbrbr16f16 brb.f16bbrf : aarfarar16f16 ] aarearar
+    q3 l4 ([4 br8b8bf >cr8c8c<b : ar8a8af ar8a8ar ] fr8f8ff fr8f8f8r8)
+    q1 o2 l16 (f&{f>f}&f&{f<f}32&f32)
+/B
+    ME1 M32,12,24
+    @Pipe o5 v20 l8 q1 r1 L
+    r1 r1 r1 r1 r1 r1 r1 r2r4rc
+    f2^rcf    | a.g.f.r16fe.r16 |    (f4..r16(d-2  |    c2^rr)c)
+    f.e.f4ref | f.dr16drr(fr    | q2   rrf4d-4d-4  | q1 c2^rr)c
+    f2^rcf    | a.g.f.r16fe.r16 |    (f4..r16(d-2  |    c2^rr)c)
+    f.e.f4rar | b.a.g4rgr       | q2   rr(b4a4g4   | q1 a2^rrr)
+    ((q2 r1r1r1r2c2     <b2>d2     c2<b2    >(c1 (^4(^4r2)))
+         r1r1r1r2r>c<ba  bf4frfga  bg4grgfe  (f1 (^4(^4r2))) ))
+/CD
+    @StringHi l8 o5 q3 ME1 M24,8,12 /C v14 D5 /D v11 D-5 r8 /
+    r1 L [8 r1] [15 r1]  r2.c4
+    d2<b2 >e2g2 c2^8< q0 a8b8>c8^2.r4
+    q3 r1r1r1 r2.c4 d2<b2 >e2g2 (a2>d2c2r2 r1r1r1) r1<
+
+/EFGH
+    /   r1 L
+    /   @Piano o4 v15 l1
+    /E  q10 >c2. q2  f4  q10 d2. r4  d-2. q2 r4  c2c2
+    /F  q10  a2. q2 >c4< q10 b2. r4  b2.  q2 b4  a2a2
+    /G  q10  f2. q2  r4  q10 f2. r4  f2.  q2 f4  f2f2
+    /E  q10  c2. q2  f4  q10 d2. r4  d-2. q2 r4  c2 q2 c4r4
+    /F  q10  a2. q2 >c4< q10 b=2.r4  b2.  q2 b4  a2 q2 a4r4
+    /G  q10  f2. q2  r4  q10 g2. r4  f2.  q2 f4  f2 q2 f4r4
+    /H  [8 r1]
+    /   @EPiano o4 v14 l8 q1
+    /E >[4 rrc4rcrr rrd4rdrr rrd-4rd-rr rrc4rcrr]
+    /F  [4 rra4rarr rrb4rbrr rrb4rbrr   rra4rarr]
+    /G  [4 rrf4rfrr rrf4rfrr rrf4rfrr : rrf4rfrr] rre4rerr
+    /H  [16 r1]
+    /   @Hosoi o4 v8 l1 q2
+    /E  [2 b  b a a  g g : f  a ]  f ^2 ( ^4 (3 x8(x8 )5
+    /F  [2 f  g f f  f e : e  f ]  c ^2 ( ^4 (3 x8(x8 )5
+    /G  [2 d  e e e- d c : c  c ] <a ^2 ( ^4 (3 x8(x8 )5
+    /H <[2 b >c c c <b b : a >c<]  f ^2 ( ^4 (3 x8(x8 )5
+
+/I
+    r1 L
+    @Ensemble o4 v12 l1 q2
+    f2.a4             g2. (4 x8 ( x8 )5   b2.g4  a2f2
+    f2.q0a8r16a16  q2 b=2.(4 x8 ( x8 )5   b2>d-2 c2. (4 x8 ( x8 )5
+    [16 r1]
+    @Horn o3 v15 l1 q2
+    f g a a   g g f a   f g a a2>c2   <b>c<a f2.r4
+
+/J
+    @Glocken o7 v17 l4 q999,8 r1 L
+    [2 rcfr  rdfr  rd-fr  rcfr]
+    [16 r1]
+    [2 r1r1r1r1r1r1 rafc : <ar(>cr)] <frrr>
+
+/K
+    @BD SE1 S-150 v29 o2 n0 l16 r1 L
+    [7 x(((xrr rr)xx ))xrrr xr(xr)] xrxrxrxr xrrr xrrr
+    [8 xrrr rrr(((x))) xr((xr rr)xr)  xr((xr rrxr ))xrrr : rrr((x))] rrrr
+    [2 [15 xrrr rr((xr)) ] xr(xr rrxr)]
+
+/L
+    @SD SE1 S-20 v28 o3 n0 l8 r1 L
+    [3 r(((x)))xrr ((x))xr] r((x))xrrxxx [3 r(((x)))xrr((x))xr] xxxxxrxr
+    [16 rrxr : rrxr] xxxx
+    [2 [8 rrxr : rrxr] xrxr]
+
+/M
+    v20 l16 o2 `MapHH,1
+    ((cr(cr ) d4 d4 rrrr) L
+    [32 c(c(cc))]
+    [62 c(ccc)] [2 ((d8)) cc]
+    [16 [4 ((d8)) cc]]
+
+/N
+    @Cynbal1 v19 l1 o6 n6 r L
+    [2 x  r  ((x : r ))] r4x2.))
+    [4 x r r : r ] r4((x2)) x4
+    [2 x r r r r r : r r4((x2.))] (( x r ))
+
+/O
+    @Cynbal2 v19 l1 o6 n6 r L
+    r r r ((x r r r x2))x2
+    [15 r] x2(x2)
+    r r r r r r r (x2)x2 r r r r r r r r
+
+/P
+    @Windchime o7 n5 v12
+    r1 L [8 r1] [15 r1] r2. !WindChime,1 x4 ^1 !WindChime,0 [15 r1]
